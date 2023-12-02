@@ -1,0 +1,1 @@
+<span class="tw-text-primary tw-text-2xl">Hello</span>
