@@ -57,4 +57,5 @@
 </head>
 
 <body style="background-color: #FEFEFE; font-family: 'Inter Custom', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important; color: black;">
-    <main class="tw-min-h-screen tw-bg-grey">
+    <main class="tw-min-h-screen tw-w-full">
+    <!-- <main class="tw-min-h-screen tw-w-full tw-bg-red-500 sm:tw-bg-green-500 md:tw-bg-blue-500 lg:tw-bg-yellow-500 xl:tw-bg-lime-800"> -->
