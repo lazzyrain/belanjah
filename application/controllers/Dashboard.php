@@ -11,7 +11,7 @@ class Dashboard extends CI_Controller
     public function index()
     {
         $data = [
-            'title' => titleName('Main Menu'),
+            'title' => titleName('Situs belanja online dimana aja kapan aja dengan mudah'),
         ];
 
         $this->load->view('layout/header', $data);
