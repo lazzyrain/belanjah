@@ -386,7 +386,7 @@ $config['encryption_key'] = '';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'sessionbelanjah0.0.02.12.20-23';
+$config['sess_cookie_name'] = 'sessionbelanjah0_0_02_12_20-23';
 $config['sess_samesite'] = 'Lax';
 $config['sess_expiration'] = 2628000; // 1 bulan
 $config['sess_save_path'] = NULL;
