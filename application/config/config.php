@@ -24,7 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/belanjah/';
+$config['base_url'] = 'https://lazzyrain.com/belanjah/';
+// $config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/belanjah/';
 
 /*
 |--------------------------------------------------------------------------

@@ -553,6 +553,23 @@ input {
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
 }
 
+.tw-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.tw-font-bold {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter Custom';
+
+  src: url('./fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+
+  font-display: swap;
+}
+
 /* Select 2 */
 
 .select2-container {

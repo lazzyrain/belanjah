@@ -63,7 +63,14 @@
     }
 
     /* Toast Function */
-    function showToast({balloon= false, type = 'info', title, message, position = 'topRight', timeout = 2000}) {
+    function showToast({
+        balloon = false,
+        type = 'info',
+        title,
+        message,
+        position = 'topRight',
+        timeout = 2000
+    }) {
         switch (type) {
             case 'info':
                 iziToast.info({
