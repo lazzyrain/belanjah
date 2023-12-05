@@ -1,9 +1,6 @@
-<nav class="tw-w-full tw-p-3 tw-flex tw-gap-3 tw-border-b tw-bg-white tw-sticky top-0 tw-text-sm tw-z-10">
-    <div class="tw-bg-white tw-w-full md:tw-w-1/4 tw-border tw-rounded-lg tw-flex tw-items-center tw-gap-2 tw-px-3 tw-h-10">
-        <i class="fa fa-magnifying-glass tw-opacity-25"></i>
-        <input type="text" class="tw-outline-none" placeholder="Cari produk...">
-    </div>
-    <div class="tw-flex tw-items-center tw-ms-auto tw-gap-6 tw-px-3">
+<nav class="tw-w-full tw-p-3 tw-flex tw-gap-3 tw-border-b tw-bg-white tw-sticky top-0 tw-text-sm tw-z-10 dropdown-center">
+    <?php $this->load->view('component/searchProduct') ?>
+    <div class="tw-items-center tw-ms-auto tw-gap-6 tw-px-3 tw-w-fit tw-hidden md:tw-flex">
         <button type="button" class="tw-outline-none tw-text-lg clicked">
             <i class="fa fa-bell"></i>
         </button>
@@ -23,3 +20,13 @@
         </div>
     </div>
 </nav>
+
+<script>
+    $(document).on('show.bs.dropdown', '#dropdownSearch', function(e) {
+        $('body').addClass('overlay');
+    });
+
+    $(document).on('hide.bs.dropdown', '#dropdownSearch', function(e) {
+        $('body').removeClass('overlay');
+    });
+</script>

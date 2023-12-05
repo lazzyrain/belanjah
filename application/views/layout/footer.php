@@ -1,18 +1,4 @@
-<div class="tw-bg-white tw-h-14 tw-items-center tw-grid tw-grid-cols-3 md:tw-hidden tw-bottom-0 tw-w-[inherit] tw-fixed">
-    <button type="button" class="tw-flex tw-flex-col tw-items-center clicked">
-        <i class="fa fa-shopping-bag tw-text-lg tw-my-auto"></i>
-        <span class="tw-text-[10px] tw-opacity-50">Belanja</span>
-    </button>
-    <div class="tw-relative tw-flex tw-justify-center tw-h-full">
-        <button type="button" class="tw-bg-primary tw-border-4 tw-border-white tw-h-20 tw-w-20 tw-rounded-full tw-absolute tw--top-2/3 clicked">
-            <i class="fa fa-cart-shopping tw-text-white tw-text-2xl"></i>
-        </button>
-    </div>
-    <button type="button" class="tw-flex tw-flex-col tw-items-center clicked">
-        <i class="fa fa-bars tw-text-lg tw-my-auto"></i>
-        <span class="tw-text-[10px] tw-opacity-50">Lainnya</span>
-    </button>
-</div>
+<?php $this->load->view('layout/bottombar'); ?>
 
 
 </main>

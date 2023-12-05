@@ -18,6 +18,16 @@
 		overflow: hidden;
 	}
 
+	body.overlay:after {
+		@apply tw-fixed tw-top-0 tw-bottom-0 tw-left-0 tw-right-0 tw-bg-black tw-opacity-25 tw-z-[9];
+		content: '';
+	}
+
+	body.overlay {
+		height: 100vh;
+		overflow: hidden;
+	}
+
 	.sef-hide-scrollbar::-webkit-scrollbar {
 		display: none;
 	}
