@@ -12,6 +12,7 @@
 <?php
 $this->load->view('layout/customJs/layoutJs');
 $this->load->view('layout/customJs/generalJs');
+$this->load->view('layout/customJs/shopJs');
 
 // $this->load->view('layout/pwa');
 ?>

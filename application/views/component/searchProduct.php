@@ -2,7 +2,7 @@
     <div class="tw-flex tw-items-center tw-w-fit md:tw-w-full">
         <span class="tw-text-primary tw-font-bold tw-text-xl md:tw-text-2xl">Belanjah</span>
     </div>
-    <div class="tw-flex tw-pl-3 tw-gap-3 tw-items-center tw-h-full tw-w-full tw-rounded-lg tw-border tw-overflow-hidden" data-bs-toggle="dropdown" aria-expanded="false" aria-expanded="false" onclick="$(this).find('input').focus()" id="dropdownSearch">
+    <div class="tw-flex tw-pl-3 tw-gap-3 tw-items-center tw-h-full tw-w-full tw-rounded-lg tw-border tw-overflow-hidden" data-bs-toggle="dropdown" onclick="$(this).find('input').focus()" id="dropdownSearch">
         <i class="fa fa-magnifying-glass tw-opacity-25"></i>
         <input type="text" class="tw-outline-none tw-w-full tw-h-full focus:tw-w-full" placeholder="Cari produk...">
     </div>
