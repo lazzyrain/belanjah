@@ -20,13 +20,3 @@
         </div>
     </div>
 </nav>
-
-<script>
-    $(document).on('show.bs.dropdown', '#dropdownSearch', function(e) {
-        $('body').addClass('overlay');
-    });
-
-    $(document).on('hide.bs.dropdown', '#dropdownSearch', function(e) {
-        $('body').removeClass('overlay');
-    });
-</script>

@@ -14,6 +14,18 @@ function getApplication()
 }
 
 /**
+ * Mendapatkan daftar menu bawah
+ * 
+ * @return array
+ */
+function getBottomBar()
+{
+    $getApplication = file_get_contents(base_url('configurations/navigations/bottombar.json'));
+
+    return json_decode($getApplication, true);
+}
+
+/**
  * Mendapatkan nama sesi
  * 
  * @return string

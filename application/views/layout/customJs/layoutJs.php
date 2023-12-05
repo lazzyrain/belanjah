@@ -171,5 +171,14 @@
         }
         $(this).val(val);
     });
+
+    /* Control event dropdown */
+    $(document).on('show.bs.dropdown', '#dropdownSearch', function(e) {
+        $('body').addClass('overlay');
+    });
+
+    $(document).on('hide.bs.dropdown', '#dropdownSearch', function(e) {
+        $('body').removeClass('overlay');
+    });
 </script>
 <!-- Akhir General -->
