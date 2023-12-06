@@ -6,7 +6,7 @@
     <!-- <meta name="robots" content="noindex"> -->
     <meta http-equiv="Cache-Control" content="max-age=3600">
     <meta name="description" content="Belanjah... belanja ajah, dimana ajah, dan kapan ajah 🛒| Semua bisa didapatkan di Belanjah.">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no, user-scalable=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no, user-scalable=no" name="viewport">
 
     <meta name="theme-color" content="#FFFFFF">
     <meta name="apple-mobile-web-app-capable" content="yes">
