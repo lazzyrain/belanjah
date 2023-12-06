@@ -1,5 +1,7 @@
 <nav class="tw-w-full tw-p-3 tw-flex tw-gap-3 tw-border-b tw-bg-white tw-sticky top-0 tw-text-sm tw-z-10 dropdown-center">
-    <?php $this->load->view('component/searchProduct') ?>
+
+    <?php $this->load->view('component/navigation/searchProduct') ?>
+
     <div class="tw-items-center tw-ms-auto tw-gap-6 tw-px-3 tw-w-fit tw-hidden md:tw-flex">
         <button type="button" aria-label="notification" class="tw-outline-none tw-text-lg clicked">
             <i class="fa fa-bell"></i>

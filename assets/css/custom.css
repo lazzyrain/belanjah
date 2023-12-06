@@ -619,6 +619,13 @@ body.overlay {
   -webkit-line-clamp: 2;
 }
 
+.tw-line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
 .tw-flex {
   display: flex;
 }
@@ -756,6 +763,12 @@ body.overlay {
 
 .tw-overflow-hidden {
   overflow: hidden;
+}
+
+.tw-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .tw-rounded-full {
